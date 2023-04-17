@@ -1,0 +1,13 @@
+/* Write your CSS here */
+
+.list-Tabs {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #7b8794;
+  font-size: 16px;
+  font-weight: bold;
+}
+.active-tab-btn {
+  color: blue;
+}

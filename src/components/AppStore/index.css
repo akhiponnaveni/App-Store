@@ -1,0 +1,49 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+  height: 100vh;
+}
+.hedding {
+  color: #7b8794;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Bree Serif;
+}
+.input-container {
+  border: 1px solid #7b8794;
+  border-radius: 5px;
+  padding: 5px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.Input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.search-image {
+  height: 30px;
+  width: 30px;
+}
+.tabItem-list-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  list-style-type: none;
+  margin: 15px;
+}
+.list-images-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1100px;
+}
